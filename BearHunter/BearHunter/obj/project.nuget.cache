@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pBe4aa1upRQ=",
+  "dgSpecHash": "XKM4kMV1obk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\youta\\source\\repos\\BearHunter\\BearHunter\\BearHunter.csproj",
+  "projectFilePath": "C:\\Users\\youta\\BearHunter\\BearHunter\\BearHunter\\BearHunter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\youta\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\youta\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

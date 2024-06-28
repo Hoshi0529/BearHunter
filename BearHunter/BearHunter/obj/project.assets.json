@@ -32925,11 +32925,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\youta\\source\\repos\\BearHunter\\BearHunter\\BearHunter.csproj",
+      "projectUniqueName": "C:\\Users\\youta\\BearHunter\\BearHunter\\BearHunter\\BearHunter.csproj",
       "projectName": "BearHunter",
-      "projectPath": "C:\\Users\\youta\\source\\repos\\BearHunter\\BearHunter\\BearHunter.csproj",
+      "projectPath": "C:\\Users\\youta\\BearHunter\\BearHunter\\BearHunter\\BearHunter.csproj",
       "packagesPath": "C:\\Users\\youta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\youta\\source\\repos\\BearHunter\\BearHunter\\obj\\",
+      "outputPath": "C:\\Users\\youta\\BearHunter\\BearHunter\\BearHunter\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
