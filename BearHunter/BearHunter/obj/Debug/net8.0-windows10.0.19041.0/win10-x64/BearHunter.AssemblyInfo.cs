@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BearHunter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6ab096b206a4ce9c8620b702c1efe1a6ac593825")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6defe854401cac8a6e9130b3c58fe4763dd30017")]
 [assembly: System.Reflection.AssemblyProductAttribute("BearHunter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BearHunter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

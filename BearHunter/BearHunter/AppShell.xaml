@@ -8,7 +8,7 @@
     Title="BearHunter">
 
     <ShellContent
-        Title="Home"
+        Title="BearHunter"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
