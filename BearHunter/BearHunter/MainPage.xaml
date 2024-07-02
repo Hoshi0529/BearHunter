@@ -4,11 +4,14 @@
              x:Class="BearHunter.MainPage">
 
     <ScrollView>
+         
         <VerticalStackLayout
         Padding="30,0"
         Spacing="25">
             <Grid Height="800" Width="400">
 
+                
+                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
@@ -53,6 +56,43 @@
                 <VerticalStackLayout  Grid.Row="4" Grid.Column="0" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
                     <Button Text="" x:Name="" Clicked="Clicked" />
                 </VerticalStackLayout>
+                <HorizontalStackLayout>
+                    <Label
+                        x:Name="label1"
+                        Text="ラベル1" 
+                        Style="{StaticResource Headline}"
+                        WidthRequest="120" HeightRequest="30" Background="Bisque" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="Start"   />
+                    <Label
+                        x:Name="label2"
+                        Text="ラベル2"
+                        Style="{StaticResource Headline}"
+                        WidthRequest="120" HeightRequest="30"  Background="LemonChiffon" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="Start"/>
+                    <Label
+                        x:Name="label3"
+                        Text="ラベル3"
+                        Style="{StaticResource Headline}"
+                        WidthRequest="120" HeightRequest="30" Background="Aquamarine" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="Start"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Button 
+                          Text="ガチャを引く"
+                          HorizontalOptions="Center" Clicked="MoveGatya" 
+                       Background="Orange"
+                     WidthRequest="120" HeightRequest="50" TextColor="#000000"/>
+                    <Button 
+                         Text="歩数追加"
+      HorizontalOptions="Center" 
+      Background="DarkCyan"  Clicked="Button_Clicked"
+      WidthRequest="120" HeightRequest="50" TextColor="#FFFFFF"/>
+
+                    <Button
+          x:Name="Kakusi"
+      Text="ボタン"
+      HorizontalOptions="Center" Clicked="Clecle" 
+      Background="LightGreen"
+      WidthRequest="120" HeightRequest="50" TextColor="#000000"/>
+                </HorizontalStackLayout>
+
 
 
 
