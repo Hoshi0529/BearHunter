@@ -41,7 +41,7 @@
                 <VerticalStackLayout  Grid.Row="3" Grid.Column="0" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
                     <Button Text="" x:Name="" Clicked="Clicked" WidthRequest="120" HeightRequest="40" />
                 </VerticalStackLayout>
-
+                
                 <Label Text="" x:Name="" Grid.Row="0" Grid.Column="1" />
                 <Label Text=""  Grid.Row="0" Grid.Column="2" />
                 <Label Text="" x:Name="" Grid.Row="2" Grid.Column="2" />
