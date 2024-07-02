@@ -133,3 +133,5 @@ $RECYCLE.BIN/
 _NCrunch*
 BearHunter/.vs/BearHunter/FileContentIndex
 BearHunter/.vs
+BearHunter/BearHunter/obj
+BearHunter/BearHunter/BearHunter.csproj.user
