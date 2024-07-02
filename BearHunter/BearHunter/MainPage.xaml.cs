@@ -6,7 +6,7 @@
         bool HOSIisMUTTURI = true; 
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent("できたかも");
         }
 
       
