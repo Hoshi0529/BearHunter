@@ -37,25 +37,7 @@
                     <ColumnDefinition Width="150" />
                     <ColumnDefinition Width="150" />
                 </Grid.ColumnDefinitions>
-
-                <Label Text=""  Grid.Row="0" Grid.Column="0" />
-                <Label Text="" Grid.Row="1" Grid.Column="0" />
-                <Label Text="" x:Name="" Grid.Row="2" Grid.Column="0" />
-                <VerticalStackLayout  Grid.Row="3" Grid.Column="0" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
-                    <Button Text="" x:Name="" Clicked="Clicked" WidthRequest="120" HeightRequest="40" />
-                </VerticalStackLayout>
-                
-                <Label Text="" x:Name="" Grid.Row="0" Grid.Column="1" />
-                <Label Text=""  Grid.Row="0" Grid.Column="2" />
-                <Label Text="" x:Name="" Grid.Row="2" Grid.Column="2" />
-                <VerticalStackLayout  Grid.Row="3" Grid.Column="2" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
-                    <Button Text="" x:Name="" Clicked="Clicked" WidthRequest="130" HeightRequest="40" />
-                </VerticalStackLayout>
-
-                <Label Text="" x:Name="" Grid.Row="0" Grid.Column="3"/>
-                <VerticalStackLayout  Grid.Row="4" Grid.Column="0" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
-                    <Button Text="" x:Name="" Clicked="Clicked" />
-                </VerticalStackLayout>
+              
                 <HorizontalStackLayout>
                     <Label
                         x:Name="label1"
@@ -75,29 +57,25 @@
                 </HorizontalStackLayout>
                 <HorizontalStackLayout>
                     <Button 
-                          Text="ガチャを引く"
-                          HorizontalOptions="Center" Clicked="MoveGatya" 
-                       Background="Orange"
+                          Text="ボタン１"
+                          HorizontalOptions="Center"   Background="Orange" Clicked="OnClicked"
                      WidthRequest="120" HeightRequest="50" TextColor="#000000"/>
-                    <Button 
-                         Text="歩数追加"
-      HorizontalOptions="Center" 
-      Background="DarkCyan"  Clicked="Button_Clicked"
-      WidthRequest="120" HeightRequest="50" TextColor="#FFFFFF"/>
+                <Button 
+                        Text="ボタン２"
+                    HorizontalOptions="Center"  Background="DarkCyan"  
+                    WidthRequest="120" HeightRequest="50" TextColor="#FFFFFF"/>
 
-                    <Button
-          x:Name="Kakusi"
-      Text="ボタン"
-      HorizontalOptions="Center" Clicked="Clecle" 
-      Background="LightGreen"
-      WidthRequest="120" HeightRequest="50" TextColor="#000000"/>
-                </HorizontalStackLayout>
+                <Button
+                    Text="ボタン３"  HorizontalOptions="Center" 
+                    Background="LightGreen"
+                    WidthRequest="120" HeightRequest="50" TextColor="#000000"/>
+                            </HorizontalStackLayout>
 
 
 
 
-            </Grid>
-        </VerticalStackLayout>
-    </ScrollView>
+                        </Grid>
+                    </VerticalStackLayout>
+                </ScrollView>
 
 </ContentPage>
