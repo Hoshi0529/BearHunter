@@ -3,14 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BearHunter.SubPage">
     <ScrollView>
-        <VerticalStackLayouts>
-            <Label 
-            Text="ああああああああああ"
-            HorizontalOptions="Center" />
-            <Button 
-                Text="Back To Main"
-                HorizontalOptions="Center" Clicked="OnClicked" />
-        </VerticalStackLayouts>
+        
     </ScrollView>
 </ContentPage>
     

@@ -57,6 +57,7 @@
                 </HorizontalStackLayout>
                 <HorizontalStackLayout>
                     <Button 
+                        
                           Text="ボタン１"
                           HorizontalOptions="Center"   Background="Orange" Clicked="OnClicked"
                      WidthRequest="120" HeightRequest="50" TextColor="#000000"/>

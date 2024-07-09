@@ -9,10 +9,5 @@ public partial class SubPage : ContentPage
         InitializeComponent();
     }
 
-    private async void OnClicked(object sender, EventArgs e)
-    {
-        // メインページへ移動
-        await Shell.Current.GoToAsync("//MainPage");
-    }
-
+   
 }
