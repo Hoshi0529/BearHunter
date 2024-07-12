@@ -5,10 +5,13 @@
              Title="NewPage1">
     <VerticalStackLayout>
         <Label 
-  Text="ああああああああああ"
-  HorizontalOptions="Center" />
+            Text="ああああああああああ"
+            HorizontalOptions="Center" />
         <Button 
       Text="Back To Main"
       HorizontalOptions="Center" Clicked="OnClicked" />
+        <Label1 text="" />
+        <Label2 text="" />
+        <Label3 text="" />
     </VerticalStackLayout>
 </ContentPage>

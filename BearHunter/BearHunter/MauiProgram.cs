@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using CommunityToolkit.Maui.MediaElement;
 
 namespace BearHunter
 {
@@ -7,6 +8,7 @@ namespace BearHunter
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
@@ -14,6 +16,9 @@ namespace BearHunter
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+            builder
+                .UseMauiApp<App>()
+                .UseMauiCommunityToolkitMediaElement()
 
 #if DEBUG
     		builder.Logging.AddDebug();
@@ -23,3 +28,5 @@ namespace BearHunter
         }
     }
 }
+
+

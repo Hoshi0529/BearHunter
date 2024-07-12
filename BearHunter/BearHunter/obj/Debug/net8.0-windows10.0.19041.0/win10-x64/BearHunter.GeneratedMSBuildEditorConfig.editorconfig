@@ -47,9 +47,3 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BearHunter.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
-
-[C:/Users/youta/BearHunter/BearHunter/BearHunter/SubPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BearHunter.SubPage.xaml
-build_metadata.AdditionalFiles.TargetPath = SubPage.xaml
-build_metadata.AdditionalFiles.RelativePath = SubPage.xaml

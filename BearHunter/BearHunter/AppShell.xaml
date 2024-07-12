@@ -12,8 +12,8 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <ShellContent
-        Title="Sub"
-        ContentTemplate="{DataTemplate local:SubPage}"
-        Route="SubPage" />
+        Title="NewPage1"
+        ContentTemplate="{DataTemplate local:NewPage1}"
+        Route="NewPage1" />
 
 </Shell>

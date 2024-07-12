@@ -10,8 +10,6 @@
         Spacing="25">
             <Grid Height="800" Width="400">
 
-                
-                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
@@ -42,17 +40,17 @@
                     <Label
                         x:Name="label1"
                         Text="ラベル1" 
-                        Style="{StaticResource Headline}"
+                        Style="{StaticResource Headline}"  Grid.Row="1" Grid.Column="1"
                         WidthRequest="120" HeightRequest="30" Background="Bisque" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="Start"   />
                     <Label
                         x:Name="label2"
                         Text="ラベル2"
-                        Style="{StaticResource Headline}"
+                        Style="{StaticResource Headline}" Grid.Row="1" Grid.Column="0"
                         WidthRequest="120" HeightRequest="30"  Background="LemonChiffon" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="Start"/>
                     <Label
                         x:Name="label3"
                         Text="ラベル3"
-                        Style="{StaticResource Headline}"
+                        Style="{StaticResource Headline}"  Grid.Row="1" Grid.Column="3"
                         WidthRequest="120" HeightRequest="30" Background="Aquamarine" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="Start"/>
                 </HorizontalStackLayout>
                 <HorizontalStackLayout>
@@ -70,13 +68,16 @@
                     Text="ボタン３"  HorizontalOptions="Center" 
                     Background="LightGreen"
                     WidthRequest="120" HeightRequest="50" TextColor="#000000"/>
-                            </HorizontalStackLayout>
 
 
 
+                   
 
+                <toolkit:MediaElement Source="embed://MyFile.mp4"
+                  ShouldShowPlaybackControls="True" />
+
+                </HorizontalStackLayout>
                         </Grid>
                     </VerticalStackLayout>
                 </ScrollView>
-
 </ContentPage>
