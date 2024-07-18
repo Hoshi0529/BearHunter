@@ -4,18 +4,12 @@
              x:Class="BearHunter.NewPage1"
              Title="NewPage1">
     <VerticalStackLayout>
-        <Label 
-<<<<<<< Updated upstream
-  Text="ああああああああああ"
-  HorizontalOptions="Center" />
+     
+            
         <Button 
       Text="Back To Main"
       HorizontalOptions="Center" Clicked="OnClicked" />
-=======
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            x:Name="List"
-            HorizontalOptions="Center" />
->>>>>>> Stashed changes
+
+        
     </VerticalStackLayout>
 </ContentPage>

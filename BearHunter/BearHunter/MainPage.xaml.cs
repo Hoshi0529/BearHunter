@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace BearHunter
 {
     public partial class MainPage : ContentPage
