@@ -11,6 +11,9 @@ using Android.Runtime;
 namespace BearHunter
 {
     [Application]
+    //下記を追記
+    [MetaData("com.google.android.maps.v2.API_KEY",
+             Value = "AIzaSyB7ihdAHiq3osky-8D-r6iNNmB5GtdPhYk")] // ここに先ほど取得したAPIキーを入れる
     public class MainApplication : MauiApplication
     {
         public MainApplication(IntPtr handle, JniHandleOwnership ownership)
@@ -20,4 +23,5 @@ namespace BearHunter
 
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
+
 }

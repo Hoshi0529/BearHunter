@@ -11,9 +11,6 @@
         Title="BearHunter"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-    <ShellContent
-        Title="Sub"
-        ContentTemplate="{DataTemplate local:SubPage}"
-        Route="SubPage" />
+    
 
 </Shell>

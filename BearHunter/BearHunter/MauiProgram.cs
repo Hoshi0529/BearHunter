@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Maui.GoogleMaps.Hosting;
 
 namespace BearHunter
 {
@@ -14,12 +15,17 @@ namespace BearHunter
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
-
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
+#if ANDROID
+            builder.UseGoogleMaps();
+#elif IOS
+         builder.UseGoogleMaps("AIzaSyB7ihdAHiq3osky-8D-r6iNNmB5GtdPhYk"); // ここに先ほど取得したAPIキーを入れる
+#endif
             return builder.Build();
         }
     }
+
 }

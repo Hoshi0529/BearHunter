@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+xmlns:maps="clr-namespace:Maui.GoogleMaps;assembly=Maui.GoogleMaps"
              x:Class="BearHunter.MainPage">
 
     <ScrollView>
@@ -55,6 +56,13 @@
                         Style="{StaticResource Headline}"
                         WidthRequest="120" HeightRequest="30" Background="Aquamarine" TextColor="#000000" FontSize="Small" HorizontalTextAlignment="Start"/>
                 </HorizontalStackLayout>
+             <maps:Map x:Name="maps"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand"
+                 MyLocationEnabled="True"
+                 WidthRequest="800"
+                 HeightRequest="600"/>
+
                 <HorizontalStackLayout>
                     <Button 
                         
@@ -72,8 +80,13 @@
                     WidthRequest="120" HeightRequest="50" TextColor="#000000"/>
                             </HorizontalStackLayout>
 
+<StackLayout>
+        <!-- ボタン -->
+        <Button Text="Kuma Button" Clicked="kumaClicked"/>
 
-
+        <!-- テキストを表示するLabelコントロール -->
+        <Label x:Name="messageLabel" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24"/>
+    </StackLayout>
 
                         </Grid>
                     </VerticalStackLayout>
